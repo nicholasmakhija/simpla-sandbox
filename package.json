@@ -1,0 +1,19 @@
+{
+  "name": "simpla-sandbox",
+  "version": "1.0.0",
+  "description": "Playground for Simpla content system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicholasmakhija/simpla-sandbox.git"
+  },
+  "author": "Nicholas Makhija",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicholasmakhija/simpla-sandbox/issues"
+  },
+  "homepage": "https://github.com/nicholasmakhija/simpla-sandbox#readme"
+}
