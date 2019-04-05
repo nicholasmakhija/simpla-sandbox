@@ -1,0 +1,3 @@
+// add all the components that use z-index below:
+// @example .class__name { z-index: index($z-stack, modal); }
+$z-stack: modal, navMenu, navMenuActive;

@@ -1,0 +1,24 @@
+// clear floats:
+%cf {
+    &:after {
+        content: '';
+        clear: both;
+        display: block;
+    }
+}
+
+//clear appearance: iOS
+%clear-default-appearance {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+// inline reset: remove natural spacing
+%inline-reset {
+    font-size: 0;
+
+    > * {
+        @extend %font-reset;
+    }
+}

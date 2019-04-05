@@ -1,0 +1,53 @@
+// family:
+$font-family-primary: Arial;
+$font-family-secondary: 'Montserrat', sans-serif;
+
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+
+// fine:
+$font-size-fine: 14px; // used for errors and fine print
+
+// base: base prefix used for all base variables
+$base-font-size: 16px;
+$base-leading: 24px;
+
+$base-computed-leading: $base-leading / $base-font-size;
+
+// intro/lead:
+$lead-desktop: 20px;
+$lead-desktop-leading: $base-leading;
+$lead-mobile: $base-font-size;
+$lead-mobile-leading: $base-leading;
+
+// h5:
+$h5-desktop: $lead-desktop;
+$h5-desktop-leading: $base-leading;
+$h5-mobile: $lead-desktop;
+$h5-mobile-leading: $base-leading;
+
+// h4:
+$h4-desktop: 24px;
+$h4-desktop-leading: 32px;
+$h4-mobile: $lead-desktop;
+$h4-mobile-leading: $base-leading;
+
+// h3:
+$h3-desktop: 32px;
+$h3-desktop-leading: 40px;
+$h3-mobile: $h4-desktop;
+$h3-mobile-leading: $h4-desktop-leading;
+
+// h2:
+$h2-desktop: 40px;
+$h2-desktop-leading: 48px;
+$h2-mobile: $h3-desktop;
+$h2-mobile-leading: $h3-desktop-leading;
+
+// h1:
+$h1-desktop: 48px;
+$h1-desktop-leading: 56px;
+$h1-mobile: $h2-desktop;
+$h1-mobile-leading: $h2-desktop-leading;

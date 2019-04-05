@@ -1,0 +1,82 @@
+body {
+    @extend %font-reset;
+    @extend %font-primary;
+    color: $color-03;
+}
+
+
+// Headings:
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    @extend %font-secondary, %typography-last;
+    margin: 0 0 $content-spacing;
+    padding: 0;
+}
+
+h1,
+.h1 {
+    font-size: $h1-mobile;
+    line-height: $h1-mobile-leading;
+}
+
+h2,
+.h2 {
+    font-size: $h2-mobile;
+    line-height: $h2-mobile-leading;
+}
+
+h3,
+.h3 {
+    font-size: $h3-mobile;
+    line-height: $h3-mobile-leading;
+}
+
+h4,
+.h4 {
+    font-size: $h4-mobile;
+    line-height: $h4-mobile-leading;
+}
+
+h5,
+.h5 {
+    font-size: $h5-desktop;
+    line-height: $h5-desktop-leading;
+}
+
+
+// Links:
+a {
+    // color: $color-05;
+    text-decoration: none;
+
+    transition: background-color $transition-duration ease, color $transition-duration ease;
+
+    &:focus,
+    &:hover {
+        // color: $color-05;
+        text-decoration: underline;
+    }
+
+    &:visited {
+        // color: $color-05;
+        text-decoration: none;
+    }
+}
+
+
+// Paragraphs:
+p {
+    @extend %typography-last;
+    margin: 0 0 $content-spacing;
+    padding: 0;
+}

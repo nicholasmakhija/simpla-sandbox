@@ -1,0 +1,25 @@
+// Grid:
+$container-xs: 100%;
+$container-sm: 740px;
+$container-md: 960px;
+$container-lg: 1140px;
+
+// Gutters:
+$gutter-xs: 24px;
+$gutter: 16px;
+
+// Baseline Grid:
+$baseline: 4px;
+
+// Component:
+$cmp-v-space-xs: $baseline * 6;
+$cmp-v-space: $cmp-v-space-xs * 2;
+
+// Content: heading, p (margin-bottom)
+$content-spacing: $baseline * 6;
+
+// Icon font:
+$icon-spacing: $baseline * 6;
+
+// Buttons:
+$btn-icon: $baseline * 9;
